@@ -1,0 +1,32 @@
+.header-container {
+    width: 1175px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-bg{
+    background-color: aqua;
+    padding-top: 35px;
+    padding-bottom: 38px;
+}
+.ul-item {
+    display:flex;
+}
+.burger-bar{
+    color:white;
+    display:none;
+}
+
+
+container
+@media (max-width: 480px) {
+    navigation(
+        display:none;
+    )
+    .burger-bar{
+        display:block;
+    }
+}
